@@ -12,18 +12,13 @@ antigen bundle aubreypwd/zsh-plugin-x@1.0.0
 
 ## Development
 
-Clone the repo somewhere, and use:
+Install the package on `master`:
 
 ```bash
-antigen bundle /path/to/zsh-plugin-x --no-local-clone
+antigen bundle aubreypwd/zsh-plugin-x
 ```
 
-### Using `ghq`:
-
-```bash
-ghq get git@github.com:aubreypwd/zsh-plugin-x.git
-antigen bundle $(ghq root)/github.com/aubreypwd/zsh-plugin-x --no-local-clone
-```
+...and contribute upstream by working in `$HOME/.antigen/bundles/aubreypwd/zsh-plugin-x`.
 
 ---
 
