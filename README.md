@@ -7,7 +7,7 @@ A simple way to exit your shell, use use `x`.
 Using [antigen](https://github.com/zsh-users/antigen):
 
 ```bash
-antigen bundle aubreypwd/zsh-plugin-x
+antigen bundle aubreypwd/zsh-plugin-x@1.0.0
 ```
 
 ## Development
@@ -15,12 +15,20 @@ antigen bundle aubreypwd/zsh-plugin-x
 Clone the repo somewhere, and use:
 
 ```bash
-antigen bundle /path/to/zsh-plugin-x@1.0.0 --no-local-clone
+antigen bundle /path/to/zsh-plugin-x --no-local-clone
 ```
 
-Using `ghq`:
+### Using `ghq`:
 
 ```bash
 ghq get git@github.com:aubreypwd/zsh-plugin-x.git
 antigen bundle $(ghq root)/github.com/aubreypwd/zsh-plugin-x --no-local-clone
 ```
+
+---
+
+## Changelog
+
+### 1.0.0
+
+- First version
