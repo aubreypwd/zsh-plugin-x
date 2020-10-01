@@ -1,6 +1,6 @@
 # `x`
 
-A simple way to exit your shell, just use use `x`.
+A simple way to exit your shell, just use `x`.
 
 ## Install
 
